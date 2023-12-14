@@ -1,0 +1,81 @@
+.image-holder {
+    background-image: url("https://www.ducativietnam.com/upload/images/400683625_832905902214744_3477494854699330946_n.jpg");
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.form-inner {
+    background: #2596be;
+    padding-top: 10vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    width: 450px;
+    height: 100vh;
+    color: white;
+    position: absolute;
+}
+form {
+    width: 100%;
+}
+.form-header {
+    text-align: center;
+}
+h3 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: ".VnVogueH";
+}
+.form-body {
+    margin-top: 40px;
+}
+.form-control {
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    height: 45px;
+    background: none;
+    padding: 0 19px;
+    color: #fff;
+    font-size: 17px;
+    
+}
+.form-control .error {
+    border-color: #fd677a!important;
+    background: url("https://www.ducativietnam.com/upload/images/400683625_832905902214744_3477494854699330946_n.jpg") no-repeat center right 19px;
+}
+.form-control .valid {
+    background: url("https://www.ducativietnam.com/upload/images/400683625_832905902214744_3477494854699330946_n.jpg") no-repeat center right 19px;
+}
+.form-error {
+    margin-top: 10px;
+    display: inline-block;
+}
+button {
+    border: none;
+    width: 100%;
+    height: 46px;
+    border-radius: 22.5px;
+    margin: auto;
+    margin-top: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: #fff;
+    color: #9C9C9C;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+a {
+    float: right;
+    color: white;
+}
